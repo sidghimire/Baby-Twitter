@@ -33,7 +33,7 @@ while True:
         if(tweetLen<40):
             tweetText2=str((x['tweet'])[20:])
             if(tweetLen<36):
-                tweet2=tweet2+"..."
+                tweetText2=tweetText2+"..."
         else:
             tweetText2=str((x['tweet'])[20:36])+"..."
     else:
