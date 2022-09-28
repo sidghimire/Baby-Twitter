@@ -4,10 +4,10 @@ import time
 import serial
 arduino = serial.Serial(port='COM3', baudrate=9600)
 API_KEY="G2QoU2J3mnk79KMlUS9dmg5hD"
-API_KEY_Secret="vwQ5gJOwynMR4bD2ePEQUJnprWG9WkBwIroeK4H3LFxoNL3ruN"
-Bearer_Token="AAAAAAAAAAAAAAAAAAAAAAXrhQEAAAAAIga91sUzWUyv93bIJNIubzaIMdE%3Dsj10kHGD9xnbUxOE1moPKRWFruAZDbMl7XS5AZvFeVwMO4T2lq"
-ACCESS_TOKEN="752175805669576705-Kt2HvOO6V6g7kJRlL4mejmAT9k1oNAI"
-ACCESS_TOKEN_SECRET="5Um13wse7oiWBf6yCtEibPqt8EOgHmU94R0j34dbQSLDb"
+API_KEY_Secret=""
+Bearer_Token=""
+ACCESS_TOKEN=""
+ACCESS_TOKEN_SECRET=""
 auth=tweepy.OAuthHandler(API_KEY,API_KEY_Secret)
 auth.set_access_token(ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
 api=tweepy.API(auth)
