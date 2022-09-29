@@ -3,9 +3,8 @@ import json
 import time
 import serial
 arduino = serial.Serial(port='COM3', baudrate=9600)
-API_KEY="G2QoU2J3mnk79KMlUS9dmg5hD"
+API_KEY=""
 API_KEY_Secret=""
-Bearer_Token=""
 ACCESS_TOKEN=""
 ACCESS_TOKEN_SECRET=""
 auth=tweepy.OAuthHandler(API_KEY,API_KEY_Secret)
