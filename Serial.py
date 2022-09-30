@@ -23,7 +23,6 @@ while True:
             "likes":tweet.favorite_count,
             "retweet":tweet.retweet_count,
             "followers":tweet.user._json['followers_count'],
-            
         }
         break
     tweetLen=len(x['tweet'])
@@ -63,5 +62,4 @@ while True:
         newFollower=followerCount
         tweetText1=""
         tweetText2=""
-            #arduino.write(fhilloollowers)
             
